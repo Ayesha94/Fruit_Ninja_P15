@@ -42,7 +42,7 @@ function draw(){
         if(fruitGroup.isTouching(sword))
         {
             fruitGroup.destroyEach();
-            score=+2;
+            score+=2;
             whoosh.play();
         }
         if(enemyGroup.isTouching(sword))
